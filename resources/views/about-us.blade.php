@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Home')
+@section('title', 'About Us')
 
 <!-- Content -->
 @section('content')
@@ -9,7 +9,7 @@
 
 <!-- CSS -->
 @section('css')
-    {{-- <link rel="stylesheet" href="{{ asset('css/home.css') }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('css/about-us.css') }}"> --}}
 @endsection
 
 <!-- JS -->

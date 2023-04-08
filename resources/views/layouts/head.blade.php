@@ -37,7 +37,7 @@
 </div>    
 <!-- Navbar End --> --}}
 
-
+{{-- Tailwind CSS Code --}}
 <nav class="bg-white shadow">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center">
@@ -50,22 +50,22 @@
         <div class="hidden w-full lg:block md:w-auto" id="navbar-default" style="font-family: 'Open Sans', sans-serif;">
             <ul class="font-bold text-lg flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
                 <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 bg-blue-700 rounded md:bg-transparent md:text-orange-600 md:p-0" aria-current="page">Home</a>
+                    <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'text-orange-600' : 'text-gray-900' }} block py-2 pl-3 pr-4 rounded md:bg-transparent text-gray-900 md:p-0">Home</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">About Us</a>
+                    <a href="{{ route('about-us') }}" class="{{ request()->routeIs('about-us') ? 'text-orange-600' : 'text-gray-900' }} block py-2 pl-3 pr-4 rounded hover:text-orange-600 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">About Us</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Services</a>
+                    <a href="{{ route('services') }}" class="{{ request()->routeIs('services') ? 'text-orange-600' : 'text-gray-900' }} block py-2 pl-3 pr-4 rounded hover:text-orange-600 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Services</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Careers</a>
+                    <a href="{{ route('careers') }}" class="{{ request()->routeIs('careers') || request()->routeIs('careers2') ? 'text-orange-600' : 'text-gray-900' }} block py-2 pl-3 pr-4 rounded hover:text-orange-600 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Careers</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Employers</a>
+                    <a href="{{ route('employers') }}" class="{{ request()->routeIs('employers') ? 'text-orange-600' : 'text-gray-900' }} block py-2 pl-3 pr-4 rounded hover:text-orange-600 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Employers</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Contact Us</a>
+                    <a href="{{ route('contact-us') }}" class="{{ request()->routeIs('contact-us') ? 'text-orange-600' : 'text-gray-900' }} block py-2 pl-3 pr-4 rounded hover:text-orange-600 md:hover:bg-transparent md:border-0 md:hover:text-orange-600 md:p-0">Contact Us</a>
                 </li>
             </ul>
         </div>
