@@ -10,7 +10,7 @@
     </div>
 
     <!-- ====== Services Section Start -->
-    <section class="services-section pt-20 pb-12 lg:pb-[90px] mt-20" style="background-image: url('{{ asset('img/bg-4-1.jpg') }}'); background-size: cover;">
+    <section class="services-section pt-20 pb-12 lg:pb-[90px] mt-20 overflow-hidden" style="background-image: url('{{ asset('img/bg-4-1.jpg') }}'); background-size: cover;">
         <div class="container max-w-screen-xl mx-auto">
             <div class="-mx-4 flex flex-wrap">
                 <div class="w-full px-4">

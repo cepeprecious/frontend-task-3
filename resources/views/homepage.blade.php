@@ -97,7 +97,7 @@
     </div>
 
     <!-- ====== Services Section Start -->
-    <section class="services-section pt-[250px] md:pt-[200px] lg:pt-[270px] lg:pb-[90px]" style="background-image: url('{{ asset('img/bg-3.jpg') }}'); background-size: cover; background-position: center;">
+    <section class="services-section pt-[250px] md:pt-[200px] lg:pt-[270px] lg:pb-[90px] overflow-hidden" style="background-image: url('{{ asset('img/bg-3.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container max-w-screen-xl mx-auto">
             <div class="-mx-4 flex flex-wrap">
                 <div class="w-full px-4">
