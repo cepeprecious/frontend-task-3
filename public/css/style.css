@@ -18,4 +18,22 @@
     position: fixed;
     display: none;
 }
-  
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-roboto-flex {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+

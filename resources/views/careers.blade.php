@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Careers')
+@section('title', 'EQISI | Careers')
 
 <!-- Content -->
 @section('content')
@@ -21,10 +21,10 @@
             <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full bg-fixed">
                 <div class="flex justify-center xl:justify-start items-center h-full m-0 xl:ml-20">
                     <div class="text-orange-600 px-6 md:px-12 bg-white bg-opacity-70 p-10 rounded-lg">
-                        <h1 class="text-5xl md:text-6xl xl:text-8xl font-bold tracking-tight mb-9" style="font-family: 'Oswald', sans-serif;">
+                        <h1 class="font-oswald text-5xl md:text-6xl xl:text-8xl font-bold tracking-tight mb-9">
                             Be part of our team
                         </h1>
-                        <p class="text-3xl" style="font-family: 'Montserrat', sans-serif;">We're looking for passionate people.</p>
+                        <p class="font-montserrat text-3xl">We're looking for passionate people.</p>
                     </div>
                 </div>
             </div>
@@ -33,15 +33,15 @@
 
     <section class="w-full xl:w-3/5 mx-auto overflow-hidden">
         <h1 class="font-bold text-5xl mb-24 text-center">
-            <span class="border-b-4 border-gray-900 text-center px-4" style="font-family: 'Montserrat', sans-serif;">List of Jobs</span>
+            <span class="font-montserrat border-b-4 border-gray-900 text-center px-4">List of Jobs</span>
         </h1>
         <div class="flex flex-wrap mx-4">
             <div class="w-full md:w-1/2 px-0 md:px-10 mb-12">
                 <div class="p-10 bg-white border border-gray-100 rounded-3xl shadow-lg text-center">
                     <a href="#">
-                        <h5 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900" style="font-family: 'Montserrat', sans-serif;">Lorem Ipsum</h5>
+                        <h5 class="font-montserrat mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">Lorem Ipsum</h5>
                     </a>
-                    <p class="mb-10 font-medium text-gray-700" style="font-family: 'Montserrat', sans-serif;">
+                    <p class="font-montserrat mb-10 font-medium text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut.
                     </p>
                     <div class="flex justify-around items-center flex-col mb-10 md:flex-row md:flex-wrap">
@@ -60,9 +60,9 @@
             <div class="w-full md:w-1/2 px-0 md:px-10 mb-12">
                 <div class="p-10 bg-white border border-gray-100 rounded-3xl shadow-lg text-center">
                     <a href="#">
-                        <h5 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900" style="font-family: 'Montserrat', sans-serif;">Lorem Ipsum</h5>
+                        <h5 class="font-montserrat mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">Lorem Ipsum</h5>
                     </a>
-                    <p class="mb-10 font-medium text-gray-700" style="font-family: 'Montserrat', sans-serif;">
+                    <p class="font-montserrat mb-10 font-medium text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut.
                     </p>
                     <div class="flex justify-around items-center flex-col mb-10 md:flex-row md:flex-wrap">
@@ -81,9 +81,9 @@
             <div class="w-full md:w-1/2 px-0 md:px-10 mb-12">
                 <div class="p-10 bg-white border border-gray-100 rounded-3xl shadow-lg text-center">
                     <a href="#">
-                        <h5 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900" style="font-family: 'Montserrat', sans-serif;">Lorem Ipsum</h5>
+                        <h5 class="font-montserrat mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">Lorem Ipsum</h5>
                     </a>
-                    <p class="mb-10 font-medium text-gray-700" style="font-family: 'Montserrat', sans-serif;">
+                    <p class="font-montserrat mb-10 font-medium text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut.
                     </p>
                     <div class="flex justify-around items-center flex-col mb-10 md:flex-row md:flex-wrap">
@@ -102,9 +102,9 @@
             <div class="w-full md:w-1/2 px-0 md:px-10 mb-12">
                 <div class="p-10 bg-white border border-gray-100 rounded-3xl shadow-lg text-center">
                     <a href="#">
-                        <h5 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900" style="font-family: 'Montserrat', sans-serif;">Lorem Ipsum</h5>
+                        <h5 class="font-montserrat mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">Lorem Ipsum</h5>
                     </a>
-                    <p class="mb-10 font-medium text-gray-700" style="font-family: 'Montserrat', sans-serif;">
+                    <p class="font-montserrat mb-10 font-medium text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut.
                     </p>
                     <div class="flex justify-around items-center flex-col mb-10 md:flex-row md:flex-wrap">
@@ -123,9 +123,9 @@
             <div class="w-full md:w-1/2 px-0 md:px-10 mb-12">
                 <div class="p-10 bg-white border border-gray-100 rounded-3xl shadow-lg text-center">
                     <a href="#">
-                        <h5 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900" style="font-family: 'Montserrat', sans-serif;">Lorem Ipsum</h5>
+                        <h5 class="font-montserrat mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">Lorem Ipsum</h5>
                     </a>
-                    <p class="mb-10 font-medium text-gray-700" style="font-family: 'Montserrat', sans-serif;">
+                    <p class="font-montserrat mb-10 font-medium text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut.
                     </p>
                     <div class="flex justify-around items-center flex-col mb-10 md:flex-row md:flex-wrap">
@@ -144,9 +144,9 @@
             <div class="w-full md:w-1/2 px-0 md:px-10 mb-12">
                 <div class="p-10 bg-white border border-gray-100 rounded-3xl shadow-lg text-center">
                     <a href="#">
-                        <h5 class="mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900" style="font-family: 'Montserrat', sans-serif;">Lorem Ipsum</h5>
+                        <h5 class="font-montserrat mb-6 text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">Lorem Ipsum</h5>
                     </a>
-                    <p class="mb-10 font-medium text-gray-700" style="font-family: 'Montserrat', sans-serif;">
+                    <p class="font-montserrat mb-10 font-medium text-gray-700">
                         Lorem ipsum dolor sit amet, consectetur incididunt ut labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut.
                     </p>
                     <div class="flex justify-around items-center flex-col mb-10 md:flex-row md:flex-wrap">

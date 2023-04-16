@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us')
+@section('title', 'EQISI | About Us')
 
 <!-- Content -->
 @section('content')
@@ -37,8 +37,8 @@
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                 <div class="lg:py-20 text-white">
-                    <h1 class="text-3xl sm:text-5xl mb-5 tracking-wider" style="font-family: 'Oswald', sans-serif; font-weight: 700">Get to know us</h1>
-                    <p class="mt-4 text-2xl" style="font-family: 'Montserrat', sans-serif;">
+                    <h1 class="font-oswald text-3xl sm:text-5xl mb-5 tracking-wider" style="font-weight: 700">Get to know us</h1>
+                    <p class="font-montserrat mt-4 text-2xl">
                         We have been part of the manufacturing industry since
                         JRS Group of Companies was established in 1986.
                         We are one of the leading companies who are

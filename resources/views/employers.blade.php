@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Employers')
+@section('title', 'EQISI | Employers')
 
 <!-- Content -->
 @section('content')
@@ -63,7 +63,7 @@
             <div class="mb-6 flex flex-col lg:flex-row items-center">
                 <label for="" class="w-full lg:w-1/5 mb-2 text-lg font-medium text-gray-900 order-1">Position: </label>
                 <input type="" id="" class="w-full lg:w-3/6 border border-black text-gray-900 text-lg rounded-2xl block p-3 mb-5 lg:mb-0 mr-0 lg:mr-20 order-2">
-                <button type="button" class="text-white font-bold py-3 px-16 rounded-lg text-lg order-3 lg:mt-0 " style="background-color: #e25923">+ Add More</button>
+                <button type="button" class="text-white font-bold py-3 px-16 rounded-lg text-lg order-3 lg:mt-0 bg-orange-500 hover:bg-orange-600">+ Add More</button>
             </div>    
             <div class="mb-6 flex flex-col lg:flex-row items-center">
                 <label for="" class="w-full lg:w-1/5 mb-2 text-lg font-medium text-gray-900 order-1">No. Required: </label>
@@ -77,7 +77,7 @@
     </div>
 
     <div class="flex items-center justify-center">
-        <button type="button" class="mx-auto text-white font-bold py-3 px-16 rounded-lg text-lg mt-10 mb-20" style="background-color: #e25923">Submit</button>
+        <button type="button" class="mx-auto text-white font-bold py-3 px-16 rounded-lg text-lg mt-10 mb-20 bg-orange-500 hover:bg-orange-600">Submit</button>
     </div>
       
 @endsection

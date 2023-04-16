@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'Careers')
+@section('title', 'EQISI | Careers')
 
 <!-- Content -->
 @section('content')
 
     <div class="max-w-screen-2xl mx-4 lg:mx-auto border border-black rounded-3xl p-8 lg:p-16 my-20">
-        <h1 class="font-bold text-5xl mb-1" style="font-family: 'Montserrat', sans-serif;">Sales Manager</h1>
+        <h1 class="font-montserrat font-bold text-3xl md:text-5xl mb-1">Sales Manager</h1>
         <p class="font-bold text-lg text-orange-500 mb-1">Emobile Matrix and Logistics Corporation</p>
         <p class="mb-4 font-medium text-lg">Quezon City, Philippines</p>
         <div class="mb-5">
@@ -19,31 +19,31 @@
                 Monday - Friday
             </span>
         </div>           
-        <a href="#" class="inline-flex items-center px-10 py-3 text-xl lg:text-2xl font-bold text-center text-white bg-orange-500 rounded-lg hover:bg-orange-600">
+        <a href="#application_form" class="inline-flex items-center px-10 py-3 text-xl lg:text-2xl font-bold text-center text-white bg-orange-500 rounded-lg hover:bg-orange-600">
             Apply Now
         </a>
         <hr class="my-10 border-2 border-black">
-        <div class="mb-8" style="font-family: 'Montserrat', sans-serif;">
+        <div class="font-montserrat mb-8">
             <h1 class="font-bold text-3xl mb-4">Job Description</h1>
             <p class="font-medium text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
         </div>
-        <div class="mb-8" style="font-family: 'Montserrat', sans-serif;">
+        <div class="font-montserrat mb-8">
             <h1 class="font-bold text-3xl mb-4">Qualifications</h1>
             <p class="font-medium text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
         </div>
-        <div class="mb-8" style="font-family: 'Montserrat', sans-serif;">
+        <div class="font-montserrat mb-8">
             <h1 class="font-bold text-3xl mb-4">Requirements</h1>
             <p class="font-medium text-xl">
                 Lorem ipsum dolor sit amet, consectetur. Ut enim ad minim veniam, quis nostrud.
             </p>
         </div>
-        <div class="mb-8" style="font-family: 'Montserrat', sans-serif;">
+        <div class="font-montserrat mb-8">
             <h1 class="font-bold text-3xl mb-4">Location</h1>
             <p class="font-medium text-xl">
                 Quezon City, Philippines.
@@ -51,15 +51,15 @@
         </div>
     </div>
 
-    <div class="max-w-screen-2xl mx-4 lg:mx-auto rounded-3xl p-8 lg:p-16 my-20" style="font-family: 'Montserrat', sans-serif;">
-        <h1 class="font-bold text-5xl mb-1" style="font-family: 'Montserrat', sans-serif;">Job Application Form</h1>
+    <div id="application_form" class="max-w-screen-2xl mx-4 lg:mx-auto rounded-3xl p-8 lg:p-16 my-20 font-montserrat">
+        <h1 class="font-bold text-3xl md:text-5xl mb-1">Job Application Form</h1>
         <hr class="my-10 border-2 border-black">
-        <p class="mb-4 font-medium text-lg">
+        <p class="mb-10 font-medium text-lg w-full lg:w-3/5 leading-8">
             Thank you for your interest in working with us. Please check below for available
             job opportunities that meets your criteria and send your application by filling up the form.
         </p>
         <div class="grid gap-10">
-            <div class="" style="font-family: 'Montserrat', sans-serif;">
+            <div class="font-montserrat">
                 <select id="" class="block w-full px-4 py-5 text-base font-bold text-black border border-gray-500 rounded-lg bg-white" required>
                     <option value="" disabled selected hidden>WHAT POSITION ARE YOU APPLYING FOR? *</option>
                     <option value="">Logistics Manager</option>
@@ -123,7 +123,7 @@
                         "/>
                     </label>
                 </form>
-                <p class="font-medium italic text-gray-500">* Upload your resume or any other relevant file. Max. file size: 50mb</p>
+                <p class="font-medium italic text-gray-600">* Upload your resume or any other relevant file. Max. file size: 50mb</p>
             </div>
         </div>  
         <button type="button" class="mx-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-16 rounded-lg text-lg mt-10 mb-20">Submit</button>
